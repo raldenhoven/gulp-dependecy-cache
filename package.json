@@ -1,0 +1,35 @@
+{
+  "name": "gulp-dependecy-cache",
+  "description": "A simple validator to only pass changed files based on dependencies",
+  "version": "0.1.0",
+  "homepage": "https://github.com/raldenhoven/gulp-dependecy-cache",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/raldenhoven/gulp-dependecy-cache.git"
+  },
+  "author": "Raldenhoven <@raldenhoven>",
+  "main": "./index.js",
+  "dependencies": {
+    "through2": "^0.5.1"
+  },
+  "devDependencies": {
+    "gulp-util": "^3.0.2",
+    "mocha": "^2.2.1",
+    "should": "^5.1.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "engines": {
+    "node": ">= 0.9.0"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://raw.githubusercontent.com/raldenhoven/gulp-dependecy-cache/master/LICENSE"
+    }
+  ],
+  "keywords": [
+    "gulpplugin"
+  ]
+}
